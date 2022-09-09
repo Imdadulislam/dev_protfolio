@@ -13,7 +13,7 @@ h1 {
     color: #FFA500;
 }
 
-section {
+.flexible-con {
     display: flex;
 }
 
@@ -24,6 +24,7 @@ section {
 
 .half-width img {
     width: 80%;
+
 }
 
 .link-button {
@@ -38,4 +39,43 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.middle-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.buttom-banner {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+h4 {
+    color: #FFA500;
+}
+
+.card {
+    margin: 30px;
+    width: 50%;
+    box-shadow: 10px 10px 30px grey;
+    border: 1px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#card-one {
+    border-left: 7px solid;
+    border-image: linear-gradient(#F78667, #FA6C59);
+    border-image-slice: 1;
+}
+
+#card-two {
+    border-left: 7px solid;
+    border-image: linear-gradient(#2179C9, #B7EDF1);
+    border-image-slice: 1;
 }
